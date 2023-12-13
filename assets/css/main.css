@@ -21,7 +21,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 17px;
+  font-size: 1.2em;
   letter-spacing: 0.1px;
   line-height: 1.8;
   color: #051922;
@@ -478,7 +478,7 @@ a.boxed-btn, a.bordered-btn, a.cart-btn {
 }
 
 .breadcrumb-bg {
-  background-image: url(../img/breadcrumb-bg.jpg);
+  background-image: url(../img/breadcrumbs.jpg);
 }
 
 .breadcrumb-text p {
@@ -597,7 +597,7 @@ nav.main-menu ul ul.sub-menu li a {
   color: #555;
   font-weight: 600;
   padding: 7px 10px;
-  font-size: 13px;
+  font-size: 10px;
 }
 
 nav.main-menu ul > li:hover ul {
@@ -708,6 +708,7 @@ nav.main-menu li a {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+  
 }
 
 .top-header-area .header-icons a {
@@ -2161,11 +2162,12 @@ a.video-play-btn {
 ----------------------------------------------------------------------------- */
 .feature-bg {
   position: relative;
-  margin: 150px 0;
+  margin: 150px 30px;
+
 }
 
 .feature-bg:after {
-  background-image: url(../img/feature-bg.jpg);
+  background-image: url(../img/feature-bg2.jpg);
   position: absolute;
   right: 0;
   top: 0;
@@ -2178,6 +2180,7 @@ a.video-play-btn {
   -webkit-box-shadow: 0 0 20px #cacaca;
   box-shadow: 0 0 20px #cacaca;
   border-bottom-left-radius: 5px;
+  
 }
 
 .team-bg-1 {
